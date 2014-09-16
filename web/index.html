@@ -33,19 +33,14 @@
 			<div class="app-topbar red">
 				<div class="app-title">Home page</div>
 			</div>
-			<div class="app-content">
-				<div class="app-section">
-					<div class="app-button" data-target="page2">Go to Page 2</div>
-				</div>
-			</div>
-		</div>
-		
-		<form id="talk" class="boxedin" onsubmit="return false;">
+			<form id="talk" class="boxedin" onsubmit="return false;">
 		  <b>You say:</b> <input type="text" id="yousay" name="input" onkeydown="if (event.keyCode == 13) { doTalk();}"/>
 		  <input type="button" onclick="doTalk()" value="talk"/>
 		</form>
 		<p id="response"></p>
-
+		</div>
+		
+	
 		<!-- Scripts -->
 		<script src="/zerver/API.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.3/zepto.min.js"></script>
